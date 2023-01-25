@@ -2,7 +2,7 @@
    <?php include 'hf/header.php' ?>
 
     <section class="section1">
-        <a href="#" class="co">Commander</a>
+        <a href="#" class="co">Commander ...</a>
     </section>
     <section class="section2">
         <hr class="hr1">
