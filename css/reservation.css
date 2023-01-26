@@ -1,0 +1,49 @@
+.nem{
+    margin-top: 30%;
+    margin-left: 26%;
+}
+
+.champ {
+    background-color: #f7d097;
+    width: 34%;
+    height: 10%;
+    padding-bottom: 5%;
+    margin-left: 16%;
+    text-align: center;
+    padding: 2% 0% 2% 0%;
+}
+.mail {
+    background-color: #f7d097;
+    width: 34%;
+    height: 10%;
+    padding-bottom: 5%;
+    margin-left: 16%;
+    text-align: center;
+    padding: 2% 0% 2% 0%;
+    margin-top: 2%;
+}
+.mess {
+    background-color: #f7d097;
+    margin-left: 16%;
+    margin-top: 2%;
+    text-align: center;
+    padding: 10% 0% 0% 0%;
+}
+.bouton {
+    margin-top: 20%;
+    margin-left: -16%;
+    width: 7%;
+    padding: 2% 0%;
+    border-radius: 13%;
+    position: absolute;
+}
+.titre {
+    margin-top: -6%;
+    position: absolute;
+    margin-left: 45.5%;
+    font-size: 160%;
+}
+.rés {
+    margin-left: 21%;
+    margin-top: 12%;
+}

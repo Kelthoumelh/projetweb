@@ -19,7 +19,6 @@
             Téléphone</a>
 </div>
 </span>
-    </section>
     
     <script src="js/Acceuil.js"></script>
     <script src="js/jquery-3.6.3.slim.min.js"></script>

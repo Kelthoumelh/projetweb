@@ -34,7 +34,7 @@ body {
     font-size: 40px;
     font-weight: 700;
     text-decoration: none;
-    margin-top: 0%;
+    margin-top: -1%;
     margin-left: -7%;
 }
 .navbar a{
@@ -248,6 +248,9 @@ img:hover {
     margin-top: 2%;
     display: flex;
 }
+.cadre {
+    margin-top: -9%;
+}
 .ptri{
     margin-left: 27%;
 }
@@ -359,7 +362,7 @@ margin-left: 11.5%;
     margin-top: 20%;
     padding: 60px 18% 82px 19%;
     background-color: #FBC364;
-    margin-left: 27%;
+    margin-left: 1%;
     position: absolute;
 }
 .mc2 a{
@@ -404,4 +407,16 @@ margin-left: 11.5%;
 }
 .propos2{
     margin-left: 1%;
+}
+.polya {
+    margin-left: 73.5%;
+    margin-top: 19.9%;
+    width: 33.5%;
+    position: absolute;
+}
+.polyb {
+    margin-top: 20%;
+    width: 30%;
+    margin-left: -2%;
+    position: absolute;
 }

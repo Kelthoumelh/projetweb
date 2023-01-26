@@ -29,8 +29,8 @@
             <a href="patisseries.php" class="patisseries">Pâtisseries</a>
             <a href="plat.php" class="plats">Plats</a>
             <a href="reservation.php" class="réservations">Réservations</a>
-            <a href="#" class="informations">informations de livraisons</a>
-            <a href="#" class="propos">A propos</a>
+            <a href="infoliv.php" class="informations">informations de livraisons</a>
+            <a href="propos.php" class="propos">A propos</a>
         </nav>
         <div class="hamburger">
             <img class="myimg" src="img/grid-outline.svg">
