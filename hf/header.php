@@ -10,6 +10,7 @@
     <style> @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap'); 
     </style>
     <link rel="stylesheet" href="css/Acceuil.css">
+    <link rel="stylesheet" href="css/reservation.css">
     <!-- <link rel="stylesheet" href="css/patisseries.css">
     <link rel="stylesheet" href="css/reservation.css"> -->
     <!-- <script src="js/jquery-3.6.3.slim.min.js"></script> -->
