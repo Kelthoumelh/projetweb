@@ -1,0 +1,56 @@
+.P4{
+    display: flex;
+    justify-content: space-around;
+}
+.photo1{
+    width: 10%;
+    padding: 10% 5% 10% 5%;
+    background-color: white;
+    margin-top: 20%;
+}
+.photo2{
+    width: 10%;
+    padding: 5% 5% 5% 5%;
+    background-color: white;
+    margin-top: 20%;
+}
+.photo3{
+    width: 10%;
+    padding: 5% 5% 5% 5%;
+    background-color: white;
+    margin-top: 20%;
+}
+.photo4{
+    width: 10%;
+    padding: 5% 5% 5% 5%;
+    background-color: white;
+    margin-top: 20%;
+}
+.P8{
+    display: flex;
+    justify-content: space-around;
+}
+.photo5{
+    width: 10%;
+    padding: 10% 5% 10% 5%;
+    background-color: white;
+    margin-top: 10%;
+}
+.photo6{
+    width: 10%;
+    padding: 5% 5% 5% 5%;
+    background-color: white;
+    margin-top: 10%;
+}
+.photo7{
+    width: 10%;
+    padding: 5% 5% 5% 5%;
+    background-color: white;
+    margin-top: 10%;
+}
+.photo8{
+    width: 10%;
+    padding: 5% 5% 5% 5%;
+    background-color: white;
+    margin-top: 10%;
+}

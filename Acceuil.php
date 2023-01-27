@@ -2,48 +2,34 @@
    <?php include 'hf/header.php' ?>
 
     <section class="section1">
-        <a href="#" class="co">Commander</a>
+        <a href="patisseries.php" class="co">Commander</a>
     </section>
     <section class="section2">
         <hr class="hr1">
     </section>
     <section class="offre">
-        <div class="offre1">
-            <img class="triangle" src="img/image triangle miel.PNG" alt="">
-        </div>
-        
-        <div class="offre2">
-            <img class="corne" src="img/corne de gazelle.PNG">
-        </div>
-        <div class="offre3">
-            <img class="zellige" src="img/zellige.PNG">
-        </div>
-    </section>
-    <section class="section1bis">
-    <p class="ptri">
+  <div class="ctri"><img class="triangle" src="img/image triangle miel.PNG" alt="">
+        <p class="ptri">
         Triangle<br>
         prix:1000€/pièce<br>
         <img src="img/🦆 icon _shopping cart outline_.png">
         <img src="img/🦆 icon _heart_.png" alt="">
-    </p>
-    <p class="pcornede">
+    </p></div> 
+  <div class="ccorne"><img class="corne" src="img/corne de gazelle.PNG">
+        <p class="pcornede">
         Corne de gazelle<br>
         prix:1000€/pièce<br>
         <img src="img/🦆 icon _shopping cart outline_.png">
         <img src="img/🦆 icon _heart_.png" alt="">
-    </p>
-    <p class="pzel">
+    </p></div>
+  <div class="czel"><img class="zellige" src="img/zellige.PNG">
+<p class="pzel">
         Zellige<br>
         prix:1000€/pièce<br>
         <img src="img/🦆 icon _shopping cart outline_.png">
         <img src="img/🦆 icon _heart_.png" alt="">
-    </p>
-    </section>
-    <section class="cadre">
-        <div class="ctri"></div>
-        <div class="ccorne"></div>
-        <div class="czel"></div>
-    </section>
+    </p></div>
+    </section>    
     <section class="section3">
         <hr class="hr2">
         <div class="imgqui"></div>

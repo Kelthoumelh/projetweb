@@ -11,9 +11,7 @@
     </style>
     <link rel="stylesheet" href="css/Acceuil.css">
     <link rel="stylesheet" href="css/reservation.css">
-    <!-- <link rel="stylesheet" href="css/patisseries.css">
-    <link rel="stylesheet" href="css/reservation.css"> -->
-    <!-- <script src="js/jquery-3.6.3.slim.min.js"></script> -->
+    <link rel="stylesheet" href="css/patiss.css">
     <title>Ma'Zhaar</title>
 </head>
 <body>
@@ -21,16 +19,16 @@
         <div class="mr">
         <a href="#" class="logo">
         Ma'Zhaar</a>
-        <form action="" class="formulaire">
+        
             <input class="champ" type="text"/>
-        </form>
+        
         </div>
         <nav class="navbar">
             <a href="Acceuil.php" class="acceuil">Acceuil</a>
             <a href="patisseries.php" class="patisseries">Pâtisseries</a>
             <a href="plat.php" class="plats">Plats</a>
             <a href="reservation.php" class="réservations">Réservations</a>
-            <a href="infoliv.php" class="informations">informations de livraisons</a>
+            <a href="infoliv.php" class="Informations">informations de livraisons</a>
             <a href="propos.php" class="propos">A propos</a>
         </nav>
         <div class="hamburger">

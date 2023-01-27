@@ -1,49 +1,43 @@
-.nem{
-    margin-top: 30%;
-    margin-left: 26%;
+/* Style the form container */
+.formr {
+   width: 50%;
+   margin: 0px 1px 0px 366px;
+   padding: 20px;
+   border: 1px solid #ccc;
+   background-color: #e2c064;
+   margin-top: 20%;
+   position: absolute;
 }
-
-.champ {
-    background-color: #f7d097;
-    width: 34%;
-    height: 10%;
-    padding-bottom: 5%;
-    margin-left: 16%;
-    text-align: center;
-    padding: 2% 0% 2% 0%;
-}
-.mail {
-    background-color: #f7d097;
-    width: 34%;
-    height: 10%;
-    padding-bottom: 5%;
-    margin-left: 16%;
-    text-align: center;
-    padding: 2% 0% 2% 0%;
-    margin-top: 2%;
-}
-.mess {
-    background-color: #f7d097;
-    margin-left: 16%;
-    margin-top: 2%;
-    text-align: center;
-    padding: 10% 0% 0% 0%;
-}
-.bouton {
-    margin-top: 20%;
-    margin-left: -16%;
-    width: 7%;
-    padding: 2% 0%;
-    border-radius: 13%;
-    position: absolute;
-}
-.titre {
-    margin-top: -6%;
-    position: absolute;
-    margin-left: 45.5%;
-    font-size: 160%;
-}
-.rés {
-    margin-left: 21%;
-    margin-top: 12%;
-}
+ 
+ 
+ /* Style the input fields */
+ input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+ }
+ 
+ 
+ /* Style the submit button */
+ input[type=submit] {
+    width: 100%;
+    background-color: #8d7b2c6e;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+ }
+ 
+ 
+ /* Style the labels */
+ label {
+    display: block;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+ }
+ 
