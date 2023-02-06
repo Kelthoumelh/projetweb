@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="css/Acceuil.css">
     <link rel="stylesheet" href="css/reservation.css">
     <link rel="stylesheet" href="css/patiss.css">
+    <link rel="stylesheet" href="css/propos.css"> 
+    <link rel="stylesheet" href="css/plat.css">
     <title>Ma'Zhaar</title>
 </head>
 <body>
@@ -20,7 +22,7 @@
         <a href="#" class="logo">
         Ma'Zhaar</a>
         
-            <input class="champ" type="text"/>
+            <input class="recherche" type="text"/>
         
         </div>
         <nav class="navbar">
@@ -35,8 +37,8 @@
             <img class="myimg" src="img/grid-outline.svg">
         </div>
         <div class="logos3">
-            <img class="person" src="img/🦆 icon _person_.png">
-            <img class="cart" src="img/🦆 icon _shopping cart outline_.png">
-            <img class="heart" src="img/🦆 icon _heart_.png">
+            <a href="cpc/compte.php"><img class="person" src="img/🦆 icon _person_.png"></a>
+            <a href="cpc/panier.php"><img class="cart" src="img/🦆 icon _shopping cart outline_.png"></a>
+            <a href="cpc/aime.php"><img class="heart" src="img/🦆 icon _heart_.png"></a>
         </div>
     </header>

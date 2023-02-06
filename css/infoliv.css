@@ -1,0 +1,20 @@
+body{
+    background-image: url(../img/marbre-beige-léger.png);
+}
+.titleinfo{
+    color: #E5A037;
+    margin-left: 7%;
+    margin-bottom: 7%;
+}
+h3{
+    color: #E5A037;
+    margin: 0 7%;
+}
+.infoliv{
+    margin-top: 20%;
+}
+@media screen and (max-width: 768px) {
+    .infoliv {
+        margin-top: 35%;
+    }
+}

@@ -1,68 +1,68 @@
-.pat{
+.plat{
     margin-top: 17%;
     margin-bottom: -10%;
-    margin-left: 46%;
+    margin-left: 48%;
     color: #E5A037;
 }
-.P4{
+.P42{
     display: flex;
     justify-content: space-around;
     margin-top: 15%;
     margin-left: 0%;
     margin-right: 6%;
 }
-.photo1{
+.photo12{
     width: 10%;
     padding: 10% 5% 10% 5%;
     background-color: white;
     display: flex;
     flex-direction: column;
 }
-.photo2{
+.photo22{
     width: 10%;
     padding: 10% 5% 10% 5%;
     background-color: white;
 }
-.photo3{
+.photo32{
     width: 10%;
     padding: 10% 5% 10% 5%;
     background-color: white;
 }
-.photo4{
+.photo42{
     width: 10%;
     padding: 10% 5% 10% 5%;
     background-color: white;
 }
-.P8{
+.P82{
     display: flex;
     justify-content: space-around;
     margin-top: 10%;
     margin-left: 0%;
     margin-right: 6%;
 }
-.photo5{
+.photo52{
     width: 10%;
     padding: 10% 5% 10% 5%;
     background-color: white;
 
 }
-.photo6{
+.photo62{
     width: 10%;
     padding: 10% 5% 10% 5%;
     background-color: white;
 
 }
-.photo7{
+.photo72{
     width: 10%;
     padding: 10% 5% 10% 5%;
     background-color: white;
 }
-.photo8{
+.photo82{
     width: 10%;
     padding: 10% 5% 10% 5%;
     background-color: white;
 }
-.prix2{
+.prix22{
     margin-top: 21%;
     margin-left: -25%;
     margin-bottom: -4%;
@@ -70,24 +70,25 @@
     text-align: center;
 }
 @media screen and (max-width: 768px) {
-    .pat{
+    
+    .plat{
         margin-top: 35%;
-        margin-bottom: 0%;
-        margin-left: 42.5%;
+        margin-left: 48%;
     }
-    .P4 {
+
+    .P42 {
         width: 281%;
         margin-left: 23%;
         margin-right: 0%;
         display: block;
     }
-    .P8{
+    .P82{
         width: 281%;
         margin-left: 23%;
         margin-right: 0%;
         display: block;
     }
-    .prix2 {
+    .prix22 {
         margin-top: 1%;
         margin-left: -80%;
         margin-bottom: 4%;
