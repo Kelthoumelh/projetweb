@@ -120,7 +120,7 @@ img:hover {
     .logos3{
         width: 20%;
         margin-left: 106%;
-        margin-top: 11%;
+        margin-top: 20%;
         display: grid;
     }
     .logo {
@@ -171,8 +171,8 @@ img:hover {
 /* DEBUT SECTION 1 */
 .co {
     position: absolute;
-    margin-left: 7%;
-    margin-top: -0.5%;
+    margin-left: -32%;
+    margin-top: 11.5%;
     color: #ffffff;
     text-decoration: none;
 }
@@ -181,14 +181,16 @@ img:hover {
 }
 .section1 {
     margin-top: 17%;
-    margin-left: 10%;
-    margin-right: 10%;
-    padding: 111px 30%;
-    background-color:#FBC364;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-left: 20%;
+    margin-right: 20%;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
 }
 .section1:hover{
     box-shadow: #E5A037 0px 7px 29px 0px;
+}
+.dough{
+    width: 100%;
+    height: 369px;
 }
 @media screen and (max-width: 768px) {
     .section1 {
@@ -211,6 +213,7 @@ img:hover {
     color:#E5A037;
     margin-left: 32%;
     margin-right: 35%;
+    margin-bottom: 14%;
 }
 .hr1:after{
     content: "Nos Offres";
@@ -315,7 +318,72 @@ img:hover {
     }
 }
 /* FIN DE LA SECTION 2 */
+/* DEMO */
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .pic-ctn {
+    width: 100vw;
+    height: 200px;
+  }
+  
+  @keyframes display {
+    0% {
+      transform: translateX(200px);
+      opacity: 0;
+    }
+    10% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    20% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    30% {
+      transform: translateX(-200px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(-200px);
+      opacity: 0;
+    }
+  }
+  
+  .pic-ctn {
+    position: relative;
+    width: 100vw;
+    height: 300px;
+    margin-top: 15vh;
+  }
+  
+  .pic-ctn > img {
+    position: absolute;
+    top: -98px;
+    left: calc(34% - 100px);
+    opacity: 0;
+    animation: display 9s infinite;
+}
+  
+  img:nth-child(2) {
+    animation-delay: 2s;
+  }
+  img:nth-child(3) {
+    animation-delay: 4s;
+  }
+  img:nth-child(4) {
+    animation-delay: 3s;
+  }
+  img:nth-child(5) {
+    animation-delay: 3s;
+  }
+  /* FIN DEMO */
 /* DEBUT SECTION 3 */
+.section3{
+    margin-top: 21%;
+}
 .hr2 {
     border: none;
     border-top: 3px double #E5A037;
@@ -397,7 +465,7 @@ img:hover {
     width: 20%;
     padding: 0.5% 39% 0.5% 40%;
     background-color: #ffd387;
-    margin-top: 14%;
+    margin-top: 12%;
     margin-left: -39.6%;
 }
 .right{
@@ -427,7 +495,7 @@ img:hover {
     font-size: 212%;
     margin-bottom: 2%;
     color: #ffffff;
-    margin-left: -82%;
+    margin-left: -73%;
 }
 .contact2 {
     font-size: 212%;
@@ -437,22 +505,22 @@ img:hover {
     color: #ffffff;
 }
 .acceuil2{
-    margin-left: 1%;
+    margin-left: 10%;
 }
 .patisseries2{
-    margin-left: 0.5%;
+    margin-left: 8.5%;
 }
 .plats2{
-    margin-left: 2%;
+    margin-left: 11%;
 }
 .réservations2{
-    margin-left: 0%
+    margin-left: 7%;
 }
 .informations2{
-    margin-left: -3.5%;
+    margin-left: 1.5%;
 }
 .propos2{
-    margin-left: 1%;
+    margin-left: 9%;
 }
 .insta2{
     margin-bottom: 5%;

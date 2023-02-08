@@ -7,21 +7,29 @@
     <div class="photo1">
     </div>
     <p class="prix2">10€<br>
-    Ajouter au panier
+    <form class="ajou" method="post" action="">
+        <input type="submit" name="ajout_panier" value="Ajouter au panier">
+    </form>
     </p>
     <div class="photo2">
     </div>
     <p class="prix2">10€<br>
-    Ajouter au panier
+    <form class="ajou" method="post" action="">
+        <input type="submit" name="ajout_panier" value="Ajouter au panier">
+    </form>
     </p>
     <div class="photo3">
     </div>
     <p class="prix2">10€<br>
-    Ajouter au panier
+    <form class="ajou" method="post" action="">
+        <input type="submit" name="ajout_panier" value="Ajouter au panier">
+    </form>
     </p>
     <div class="photo4"></div>
     <p class="prix2">10€<br>
-    Ajouter au panier
+    <form class="ajou" method="post" action="">
+    <input  type="submit" name="ajout_panier" value="Ajouter au panier">
+    </form>
     </p>
     
 </div>
@@ -29,19 +37,27 @@
 
     <div class="photo5"></div>
     <p class="prix2">10€<br>
-    Ajouter au panier
+    <form class="ajou" method="post" action="">
+    <input  type="submit" name="ajout_panier" value="Ajouter au panier">
+    </form>
     </p>
     <div class="photo6"></div>
     <p class="prix2">10€<br>
-    Ajouter au panier
+    <form class="ajou" method="post" action="">
+    <input  type="submit" name="ajout_panier" value="Ajouter au panier">
+    </form>
     </p>
     <div class="photo7"></div>
     <p class="prix2">10€<br>
-    Ajouter au panier
+    <form class="ajou" method="post" action="">
+    <input  type="submit" name="ajout_panier" value="Ajouter au panier">
+    </form>
     </p>
     <div class="photo8"></div>
     <p class="prix2">10€<br>
-    Ajouter au panier
+    <form class="ajou" method="post" action="">
+    <input  type="submit" name="ajout_panier" value="Ajouter au panier">
+    </form>
     </p>
     
 </div>

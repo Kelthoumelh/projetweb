@@ -7,7 +7,7 @@
        <br>
        <textarea maxlength="50" minlength="3"  id="message" name="message" placeholder="Message" required></textarea>
        <br>
-       <input type="submit" value="Envoyer" name="submit">
+       <input class="submit" type="submit" value="Envoyer" name="submit">
 
    </form> 
 <?php include 'hf/footer.php' ?>

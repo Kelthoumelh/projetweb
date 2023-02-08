@@ -46,9 +46,9 @@
         margin-top: 40%;
     }
     .hr3:after {
-        padding: 0 20px;
-        top: -85px;
-        font-size: 166%;
+        top: -53px;
+        font-size: 212%;
+        margin-left: 5%;
     }
     .hr3{
         border-top: none;

@@ -2,12 +2,13 @@
    <?php include 'hf/header.php' ?>
 
     <section class="section1">
+         <img class="dough" src="img/dough.jpg" alt="">
         <a href="patisseries.php" class="co">Commander</a>
     </section>
     <section class="section2">
         <hr class="hr1">
     </section>
-    <section class="offre">
+    <!-- <section class="offre">
   <div class="ctri"><img class="triangle" src="img/image triangle miel.PNG" alt="">
         <p class="ptri">
         Triangle<br>
@@ -29,7 +30,12 @@
         <img src="img/🦆 icon _shopping cart outline_.png">
         <img src="img/🦆 icon _heart_.png" alt="">
     </p></div>
-    </section>    
+    </section>     -->
+    <div class="pic-ctn">
+    <img src="img/chebakkia.PNG" alt="" class="pic">
+    <img src="img/fekkas(600).png" alt="" class="pic">
+    <img src="img/ghliba(600).png" alt="" class="pic">
+  </div>
     <section class="section3">
         <hr class="hr2">
         <div class="imgqui"></div>
