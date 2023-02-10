@@ -8,34 +8,19 @@
     <section class="section2">
         <hr class="hr1">
     </section>
-    <!-- <section class="offre">
-  <div class="ctri"><img class="triangle" src="img/image triangle miel.PNG" alt="">
-        <p class="ptri">
-        Triangle<br>
-        prix:1000€/pièce<br>
-        <img src="img/🦆 icon _shopping cart outline_.png">
-        <img src="img/🦆 icon _heart_.png" alt="">
-    </p></div> 
-  <div class="ccorne"><img class="corne" src="img/corne de gazelle.PNG">
-        <p class="pcornede">
-        Corne de gazelle<br>
-        prix:1000€/pièce<br>
-        <img src="img/🦆 icon _shopping cart outline_.png">
-        <img src="img/🦆 icon _heart_.png" alt="">
-    </p></div>
-  <div class="czel"><img class="zellige" src="img/zellige.PNG">
-<p class="pzel">
-        Zellige<br>
-        prix:1000€/pièce<br>
-        <img src="img/🦆 icon _shopping cart outline_.png">
-        <img src="img/🦆 icon _heart_.png" alt="">
-    </p></div>
-    </section>     -->
-    <div class="pic-ctn">
-    <img src="img/chebakkia.PNG" alt="" class="pic">
-    <img src="img/fekkas(600).png" alt="" class="pic">
-    <img src="img/ghliba(600).png" alt="" class="pic">
-  </div>
+  
+  <div class="carousel">
+  <ul class="carousel__list">
+    <li class="carousel__item" data-pos="-2">
+      <img class="cheb1" src="img/chebakkia.PNG" alt="">
+      <p class="textcar">Exemple 1: ndjhfuliezg</p>
+  </li>
+    <li class="carousel__item" data-pos="-1">2</li>
+    <li class="carousel__item" data-pos="0">3</li>
+    <li class="carousel__item" data-pos="1">4</li>
+    <li class="carousel__item" data-pos="2">5</li>
+  </ul>
+    </div>
     <section class="section3">
         <hr class="hr2">
         <div class="imgqui"></div>

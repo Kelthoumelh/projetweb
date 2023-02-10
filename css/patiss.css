@@ -8,6 +8,7 @@
     display: flex;
     justify-content: space-around;
     margin-top: 15%;
+    margin-right: 5.5%;
 }
 .photo1{
     width: 10%;
@@ -35,6 +36,7 @@
     display: flex;
     justify-content: space-around;
     margin-top: 10%;
+    margin-right: 5.5%;
 }
 .photo5{
     width: 10%;
@@ -60,15 +62,13 @@
 }
 .prix2 {
     margin-top: 21%;
-    margin-left: -17%;
+    margin-left: -25%;
     margin-bottom: -4%;
     color: #E5A037;
     text-align: center;
 }
 .ajou {
-    margin-top: 25%;
-    margin-bottom: -23%;
-    margin-left: -10%;
+    margin-top: 2%;
 }
 @media screen and (max-width: 768px) {
     .pat{
@@ -94,4 +94,9 @@
         margin-bottom: 4%;
         text-align: center;
     }
+}
+/* page details produits */
+.product-detail-page {
+    margin-top: 20%;
+    text-align: center;
 }

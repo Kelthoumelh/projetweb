@@ -55,7 +55,7 @@ body {
 .navbar{
    display: flex;
    justify-content: space-between;
-   margin-top: 1%;
+   margin-top: 3%;
 }
 .myimg {
     position: relative;
@@ -96,15 +96,13 @@ body {
 .person {
     width: 25%;
     margin-right: 20%;
-    margin-top: 3%;
+    margin-top: -22%;
     margin-bottom: 2%;
+    margin-left: -7%;
 }
 .cart{
-    width:25%;
-    margin-right: 20%;
-}
-.heart{
-    width:25%;
+    width: 25%;
+    margin-top: -21%;
 }
 img:hover {
     
@@ -166,6 +164,18 @@ img:hover {
       .recherche{
         display: none;
       }
+      .cart {
+        width: 25%;
+        margin-top: -6%;
+        margin-left: -3%;
+    }
+    .person {
+        width: 25%;
+        margin-right: 20%;
+        margin-top: 0%;
+        margin-bottom: 2%;
+        margin-left: -2%;
+    }
 }
 /* FIN DU HEADER */
 /* DEBUT SECTION 1 */
@@ -198,7 +208,8 @@ img:hover {
         margin-bottom: 11%;
     }
     .co {
-        margin-left: 4%;
+        margin-left: -35%;
+        margin-top: 24%;
     }
 }
 /* FIN SECTION1 */
@@ -319,7 +330,7 @@ img:hover {
 }
 /* FIN DE LA SECTION 2 */
 /* DEMO */
-html, body {
+/* html, body {
     margin: 0;
     padding: 0;
   }
@@ -374,12 +385,51 @@ html, body {
     animation-delay: 4s;
   }
   img:nth-child(4) {
-    animation-delay: 3s;
+    animation-delay: 1s;
   }
   img:nth-child(5) {
-    animation-delay: 3s;
-  }
+    animation-delay: 1s;
+  } */
   /* FIN DEMO */
+  /* CARROUSEL YTB */
+  /* #carrousel{
+    width: 800px;
+    height: 400px;
+    border: solid 4px #fff;
+    box-shadow:  0 0 14px rgba(0, 0, 0, 0.3);
+    position: relative;
+    margin-left: 24%;
+  }
+  #container{
+    width: 800px;
+    height: 400px;
+  }
+  .bouton{
+    position: absolute;
+    width: 70px;
+    cursor: pointer;
+    top: 150px;
+  }
+  #g{
+    left: 0;
+    opacity: 0.4;
+    transform: rotate(0deg);
+  }
+  #d{
+    right: 0;
+    opacity: 0.4;
+    transform: rotate(180deg);
+  }
+  #g :hover{
+    transform: rotate(0deg) scale(1.1);
+    opacity: 1;
+    transition: all 0.3 ease;
+  }
+  #d :hover{
+    transform: rotate(180deg) scale(1.1);
+    opacity: 1;
+    transition: all 0.3 ease;
+  } */
 /* DEBUT SECTION 3 */
 .section3{
     margin-top: 21%;
@@ -620,4 +670,86 @@ html, body {
         position: absolute;
         margin-left: 2%;
     }
+}
+/* carrousel */
+.carousel {
+    display: flex;
+    width: 96%;
+    height: 6%;
+    align-items: center;
+    font-family: Arial;
+}
+.carousel__list {
+    display: flex;
+    list-style: none;
+    position: relative;
+    width: 100%;
+    height: 156px;
+    justify-content: center;
+    perspective: 300px;
+}
+.carousel__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 0px;
+  width: 214px;
+  height: 227px;
+  border-radius: 12px;
+  box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.5);
+  position: absolute;
+  transition: all 0.3s ease-in;
+}
+.carousel__item:nth-child(1) {
+  background: transparent;
+}
+.carousel__item:nth-child(2) {
+  background: linear-gradient(45deg, #2d35eb 0%, #fdbb2d 100%);
+}
+.carousel__item:nth-child(3) {
+  background: linear-gradient(45deg, #2d35eb 0%, #22c1c3 100%);
+}
+.carousel__item:nth-child(4) {
+  background: linear-gradient(45deg, #fdbb2d 0%, #904ed4 100%);
+}
+.carousel__item:nth-child(5) {
+  background: linear-gradient(45deg, #22c1c3 0%, #904ed4 100%);
+}
+.carousel__item[data-pos="0"] {
+  z-index: 5;
+}
+.carousel__item[data-pos="-1"], .carousel__item[data-pos="1"] {
+  opacity: 0.7;
+  filter: blur(1px) grayscale(10%);
+}
+.carousel__item[data-pos="-1"] {
+  transform: translateX(-40%) scale(0.9);
+  z-index: 4;
+}
+.carousel__item[data-pos="1"] {
+  transform: translateX(40%) scale(0.9);
+  z-index: 4;
+}
+.carousel__item[data-pos="-2"], .carousel__item[data-pos="2"] {
+  opacity: 0.4;
+  filter: blur(3px) grayscale(20%);
+}
+.carousel__item[data-pos="-2"] {
+  transform: translateX(-70%) scale(0.8);
+  z-index: 3;
+}
+.carousel__item[data-pos="2"] {
+  transform: translateX(70%) scale(0.8);
+  z-index: 3;
+}
+.cheb1 {
+    width: 100%;
+    height: 64%;
+    margin-block-end: auto;
+    border-radius: 7%;
+    transition: all 0.3s ease-in;
+}
+.textcar{
+    position: absolute;
 }

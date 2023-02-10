@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/patiss.css">
     <link rel="stylesheet" href="css/propos.css"> 
     <link rel="stylesheet" href="css/plat.css">
+    <link rel="stylesheet" href="css/compte.css">
     <title>Ma'Zhaar</title>
 </head>
 <body>
@@ -37,8 +38,7 @@
             <img class="myimg" src="img/grid-outline.svg">
         </div>
         <div class="logos3">
-            <a href="cpc/compte.php"><img class="person" src="img/🦆 icon _person_.png"></a>
-            <a href="cpc/panier.php"><img class="cart" src="img/🦆 icon _shopping cart outline_.png"></a>
-            <a href="cpc/aime.php"><img class="heart" src="img/🦆 icon _heart_.png"></a>
+            <a href="compte.php" class="person"><img  src="img/🦆 icon _person_.png"></a>
+            <a href="panier.php" class="cart"><img  src="img/🦆 icon _shopping cart outline_.png"></a>
         </div>
     </header>

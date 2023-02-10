@@ -5,6 +5,5 @@ hamburger.addEventListener("click", () => {
 
     navbar.classList.toggle("show");
 });
-$(".triangle").hover(function(){
-    
-});
+
+// carrousel

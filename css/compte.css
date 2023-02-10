@@ -1,0 +1,37 @@
+#cmpth{
+    width: 50%;
+    margin: 363px 375px;
+    margin-bottom: 0%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f2f2f2;
+    display: inline-grid;
+}
+.passcmpt{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.ecmpt{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.cmpti{
+    text-align: center;
+}
+.envocmpt{
+    padding: 1% 0%;
+}
+@media screen and (max-width: 768px) {
+    #cmpth{
+        margin: 313px 174px;
+        margin-bottom: 0%;
+    }
+}
