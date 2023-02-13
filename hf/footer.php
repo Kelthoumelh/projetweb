@@ -5,7 +5,7 @@
     </section>
     <section class=copy>
         <p class="right"> <img src="">
-            copyright 2022-2023: kelthoum</p>
+            copyright 2022-2023: Ma'Zhaar</p>
     </section>
     
     <span class="mc2">

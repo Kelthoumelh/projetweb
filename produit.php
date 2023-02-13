@@ -2,14 +2,14 @@
 <?php
   
   $products = array(
-    array(1, "Chebakkia", "T-shirt confortable en coton de qualité supérieure", "S, M, L, XL", "Blanc, noir, rouge", 15,"img/chebakkias.PNG") ,
-    array(2, "Ghliba", "T-shirt confortable en papier canson", "28, 30, 32, 34", "20kg" , 50, "t-shirt-2.jpeg"),
+    array(1, "Chebakkia", "T-shirt confortable en coton de qualité supérieure", "S, M, L, XL", "Blanc, noir, rouge", 15,"chebakkia.PNG") ,
+    array(2, "Ghliba", "Sablé saupoudrer de sucre glace", "28, 30, 32, 34", "20kg" , 50, "ghliba(600).png"),
     array(3, "Briouates", "Triangle aux amandes recouvert d'une fine pate craquante enrobée de miel", "S, M, L", "Noir", 75, "t-shirt-3.jpeg"),
-    array(4, "Zellige", "T-shirt confortable en or ", "S, M, L", "Noir", 75, "t-shirt-3.jpeg"),
-    array(5, "Fekkas", "T-shirt confortable en or ", "S, M, L", "Noir", 75, "t-shirt-3.jpeg"),
-    array(6, "Corne de Gazelle", "T-shirt confortable en or ", "S, M, L", "Noir", 75, "t-shirt-3.jpeg"),
-    array(7, "Gateau choco", "T-shirt confortable en or ", "S, M, L", "Noir", 75, "t-shirt-3.jpeg"),
-    array(8, "Gateau abricot-coco", "T-shirt confortable en or ", "S, M, L", "Noir", 75, "t-shirt-3.jpeg")
+    array(4, "Zellige", "Nougat d'amandes et cacao", "S, M, L", "Noir", 75, "t-shirt-3.jpeg"),
+    array(5, "Fekkas", "Biscuit croquant aux amandes ", "S, M, L", "Noir", 75, "t-shirt-3.jpeg"),
+    array(6, "Corne de Gazelle", "Gâteau en forme de croissant à la pate d'amande", "S, M, L", "Noir", 75, "t-shirt-3.jpeg"),
+    array(7, "Gateau choco", "Gâteau moelleu au chocolat", "S, M, L", "Noir", 75, "t-shirt-3.jpeg"),
+    array(8, "Sablé coco-abricot", "Sablé enrobé de confiture d'abricot et de noix de coco", "S, M, L", "Noir", 75, "t-shirt-3.jpeg")
   );
   foreach ($products as $product) {
       if($_GET['idProdui']== $product[0]){

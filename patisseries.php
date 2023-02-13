@@ -1,66 +1,84 @@
-
 <?php include 'hf/header.php' ?>
 
 <h1 class="pat">Pâtisseries</h1>
 <div class="P4">
-
-    <div class="photo1">
-    </div>
-    <p class="prix2">10€<br>
-    <a href="produit.php?idProdui=1">
+    <div class="photo1"></div>
+    <div class="basimg">
+    <p class="prix2">Chebakkia<br>
+    10€
+    </p> 
+    <a class="href1" href="produit.php?idProdui=1">
         <input type="submit" name="ajout_panier" value="Voir la description">
     </a>
-    </p>
+   </div>
     <div class="photo2">
     </div>
-    <p class="prix2">10€<br>
-    <a href="produit.php?idProdui=2">
+    <div class="basimg2">
+    <p class="prix2">juvn<br>
+    10€
+    </p>
+    <a class="href2" href="produit.php?idProdui=2">
         <input type="submit" name="ajout_panier" value="Voir la description">
     </a>
-    </p>
+    </div>
     <div class="photo3">
     </div>
-    <p class="prix2">10€<br>
-    <a href="produit.php?idProdui=3">
+    <div class="basimg3">
+    <p class="prix2">jbyny<br>
+    10€
+    </p>
+    <a class="href3" href="produit.php?idProdui=3">
         <input type="submit" name="ajout_panier" value="Voir la description">
     </a>
-    </p>
+    </div>
     <div class="photo4"></div>
-    <p class="prix2">10€<br>
-    <a href="produit.php?idProdui=4">
+    <div class="basimg4">
+    <p class="prix2">ujbjutf<br>
+    10€
+    </p>
+    <a class="href4" href="produit.php?idProdui=4">
     <input  type="submit" name="ajout_panier" value="Voir la description">
     </a>
-    </p>
-    
+</div>
 </div>
 <div class="P8">
 
     <div class="photo5"></div>
-    <p class="prix2">10€<br>
-    <a href="produit.php?idProdui=5">
+    <div class="basimg5">
+    <p class="prix2">Fhkbuki<br>
+    10€
+    </p>
+    <a class="href5" href="produit.php?idProdui=5">
     <input class="ajou" type="submit" name="ajout_panier" value="Voir la description">
     </a>
-    </p>
+    </div>
     <div class="photo6"></div>
-    <p class="prix2">10€<br>
-    <a href="produit.php?idProdui=6">
+    <div class="basimg6">
+    <p class="prix2">jvykibbv<br>
+    10€
+    </p>
+    <a class="href6" href="produit.php?idProdui=6">
     <input class="ajou" type="submit" name="ajout_panier" value="Voir la description">
     </a>
-    </p>
+    </div>
     <div class="photo7"></div>
-    <p class="prix2">10€<br>
-    <a  href="produit.php?idProdui=7">
+    <div class="basimg7">
+    <p class="prix2">yvjtybujk<br>
+    10€
+    </p>
+    <a class="href7" href="produit.php?idProdui=7">
     <input class="ajou" type="submit" name="ajout_panier" value="Voir la description">
     </a>
-    </p>
+    </div>
     <div class="photo8"></div>
-    <p class="prix2">10€<br>
-    <a href="produit.php?idProdui=8">
+    <div class="basimg8">
+    <p class="prix2">ytytrlûoi<br>
+    10€
+    </p>
+    <a class="href8" href="produit.php?idProdui=8">
     <input  class="ajou" type="submit" name="ajout_panier" value="Voir la description">
     </a>
-    </p>
+    </div>
     
 </div>
-    <?php include 'hf/footer.php' ?>
-</body>
-</html>
+<?php include 'hf/footer.php' ?>

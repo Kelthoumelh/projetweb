@@ -222,9 +222,9 @@ img:hover {
     height: 5px;
     margin-top: 5%;
     color:#E5A037;
-    margin-left: 32%;
-    margin-right: 35%;
-    margin-bottom: 14%;
+    margin-left: 31%;
+    margin-right: 31%;
+    margin-bottom: 4%;
 }
 .hr1:after{
     content: "Nos Offres";
@@ -232,7 +232,6 @@ img:hover {
     padding: 0 4px;
     position: relative;
     top: -13px;
-    margin-left: 4.5%;
     color:#E5A037;
     background-color: #f3e8d6;
 }
@@ -430,52 +429,6 @@ img:hover {
     opacity: 1;
     transition: all 0.3 ease;
   } */
-/* DEBUT SECTION 3 */
-.section3{
-    margin-top: 21%;
-}
-.hr2 {
-    border: none;
-    border-top: 3px double #E5A037;
-    overflow: visible;
-    text-align: center;
-    height: 5px;
-    margin-top: 5%;
-    color:#E5A037;
-    margin-left: 14%;
-    margin-right: 14%;
-}
-.hr2:after{
-    content: "Qui sommes nous?";
-    background: #f3e8d6;
-    padding: 0 4px;
-    position: relative;
-    top: -13px;
-    margin-left: 0.5%;
-    margin-right: 2%;
-    color:#E5A037
-}
-.imgqui{
-    padding: 88px 6%;
-    background-color:#FBC364;
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-top: 5%;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
-.imgqui:hover{
-    box-shadow: #E5A037 0px 7px 29px 0px;
-}
-.textequi{
-    margin-top: 5%;
-    color: #E5A037;
-    margin-right: 15%;
-    margin-left:15%;
-    text-align: center;
-    font-size: 20px;
-}
-
-
 .polya {
     margin-left: 73.5%;
     margin-top: 19.9%;
@@ -501,14 +454,14 @@ img:hover {
     font-family: 'Architects Daughter', cursive;
     font-size: 40px;
     margin-top: -2%;
-    margin-left: 13%;
+    margin-left: -4%;
 }
 .souslogo{
     color: #fffffb;
     font-family: 'Architects Daughter', cursive;
     font-size: 12px;
     margin-top: -17%;
-    margin-left: 13%;
+    margin-left: -6%;
 }
 .copy{
     position: absolute;
@@ -521,7 +474,7 @@ img:hover {
 .right{
     font-size: 63%;
     color: white;
-    margin-left: 2%;
+    margin-left: -16%;
 }
 .mc2 a{
     text-decoration: none;
@@ -540,6 +493,9 @@ img:hover {
     margin-top: -52.5%;
     font-size: 101%;
     display: block;
+}
+.cift2 a{
+    margin-left: 2%;
 }
 .menu2 {
     font-size: 212%;
@@ -678,6 +634,8 @@ img:hover {
     height: 6%;
     align-items: center;
     font-family: Arial;
+    margin-bottom: 25%;
+    margin-left: -1%;
 }
 .carousel__list {
     display: flex;
@@ -694,28 +652,40 @@ img:hover {
   justify-content: center;
   color: #fff;
   font-size: 0px;
-  width: 214px;
-  height: 227px;
+  width: 400px;
+  height: 400px;
   border-radius: 12px;
   box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.5);
   position: absolute;
   transition: all 0.3s ease-in;
+  margin-left: 3%;
 }
 .carousel__item:nth-child(1) {
-  background: transparent;
+  background-image: url(../img/crêpe.PNG../img/image\ triangle\ gateau.PNG);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-size: 120%;
 }
 .carousel__item:nth-child(2) {
-  background: linear-gradient(45deg, #2d35eb 0%, #fdbb2d 100%);
+  /* background: linear-gradient(45deg, #2d35eb 0%, #fdbb2d 100%); */
+  background-image: url(../img/chebakkia.PNG);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-size: 120%;
 }
 .carousel__item:nth-child(3) {
-  background: linear-gradient(45deg, #2d35eb 0%, #22c1c3 100%);
+  background-image: url(../img/ghliba\(600\).png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-size: 120%;
 }
 .carousel__item:nth-child(4) {
-  background: linear-gradient(45deg, #fdbb2d 0%, #904ed4 100%);
+  background-image: url(../img/gateau_choco.PNG);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-size: 120%;
 }
-.carousel__item:nth-child(5) {
-  background: linear-gradient(45deg, #22c1c3 0%, #904ed4 100%);
-}
+
 .carousel__item[data-pos="0"] {
   z-index: 5;
 }
@@ -750,6 +720,28 @@ img:hover {
     border-radius: 7%;
     transition: all 0.3s ease-in;
 }
-.textcar{
+.textcar1 {
     position: absolute;
+    margin-top: 140%;
+    color: #E5A037;
+}
+.textcar2 {
+    position: absolute;
+    margin-top: 140%;
+    color: #E5A037;
+}
+.textcar3 {
+    position: absolute;
+    margin-top: 140%;
+    color: #E5A037;
+}
+.textcar4 {
+    position: absolute;
+    margin-top: 140%;
+    color: #E5A037;
+}
+.textcar5 {
+    position: absolute;
+    margin-top: 140%;
+    color: #E5A037;
 }
