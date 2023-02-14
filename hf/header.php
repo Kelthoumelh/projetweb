@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/Acceuil.css">
     <link rel="stylesheet" href="css/reservation.css">
     <link rel="stylesheet" href="css/patiss.css">
-    <link rel="stylesheet" href="css/propos.css"> 
+    <link rel="stylesheet" href="css/contactp.css"> 
     <link rel="stylesheet" href="css/plat.css">
     <link rel="stylesheet" href="css/compte.css">
     <title>Ma'Zhaar</title>
@@ -32,7 +32,7 @@
             <a href="plat.php" class="plats">Plats</a>
             <a href="reservation.php" class="réservations">Réservations</a>
             <a href="infoliv.php" class="Informations">Mentions Légales</a>
-            <a href="propos.php" class="propos">Contacts</a>
+            <a href="contactp.php" class="propos">Contacts</a>
         </nav>
         <div class="hamburger">
             <img class="myimg" src="img/grid-outline.svg">

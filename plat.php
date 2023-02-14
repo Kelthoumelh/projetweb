@@ -7,8 +7,8 @@
     <p class="prix22">cfbdfb<br>
     10€
     </p>
-    <a class="href12" href="ajou2">
-    <input  type="submit" name="ajout_panier" value="ajouter au panier">
+    <a class="href12" href="produit2.php?idProdui=1">
+    <input  type="submit" name="ajout_panier" value="Voir la description">
     </a>
     </div>
     <div class="photo22"></div>
@@ -16,8 +16,8 @@
     <p class="prix22">bfbdbdf<br>
     10€ 
     </p>
-    <a class="href22" href="ajou2">
-    <input  type="submit" name="ajout_panier" value="ajouter au panier">
+    <a class="href22" href="produit2.php?idProdui=2">
+    <input  type="submit" name="ajout_panier" value="Voir la description">
     </a>
    </div>
     <div class="photo32"></div>
@@ -25,8 +25,8 @@
     <p class="prix22">yukjth<br>
     10€
     </p>
-    <a class="href32" href="ajou2">
-    <input  type="submit" name="ajout_panier" value="ajouter au panier">
+    <a class="href32" href="produit2.php?idProdui=3">
+    <input  type="submit" name="ajout_panier" value="Voir la description">
     </a>
     </div>
     <div class="photo42"></div>
@@ -34,8 +34,8 @@
     <p class="prix22">jyjtyj<br>
     10€
     </p>
-    <a class="href42" href="ajou2">
-    <input  type="submit" name="ajout_panier" value="ajouter au panier">
+    <a class="href42" href="produit2.php?idProdui=4">
+    <input  type="submit" name="ajout_panier" value="Voir la description">
     </a>
     </div>
     
@@ -47,8 +47,8 @@
     <p class="prix22">lilkjt<br>
     10€
     </p>
-    <a class="href52" href="ajou2">
-    <input  type="submit" name="ajout_panier" value="ajouter au panier">
+    <a class="href52" href="produit2.php?idProdui=5">
+    <input  type="submit" name="ajout_panier" value="Voir la description">
     </a>
     </div>
     <div class="photo62"></div>
@@ -56,8 +56,8 @@
     <p class="prix22">retswrfd<br>
     10€ 
     </p>
-    <a class="href62" href="ajou2">
-    <input  type="submit" name="ajout_panier" value="ajouter au panier">
+    <a class="href62" href="produit2.php?idProdui=6">
+    <input  type="submit" name="ajout_panier" value="Voir la description">
     </a>
    </div>
     <div class="photo72"></div>
@@ -65,8 +65,8 @@
     <p class="prix22">ukjhmlok<br>
     10€
     </p>
-    <a class="href72" href="ajou2">
-    <input  type="submit" name="ajout_panier" value="ajouter au panier">
+    <a class="href72" href="produit2.php?idProdui=7">
+    <input  type="submit" name="ajout_panier" value="Voir la description">
     </a>
     </div>
     <div class="photo82"></div>
@@ -74,8 +74,8 @@
     <p class="prix22">tyrgftuj<br>
     10€
     </p>
-    <a class="href82" href="ajou2">
-    <input  type="submit" name="ajout_panier" value="ajouter au panier">
+    <a class="href82" href="produit2.php?idProdui=8">
+    <input  type="submit" name="ajout_panier" value="Voir la description">
     </a>
     </div>
 </div>

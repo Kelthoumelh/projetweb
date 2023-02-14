@@ -1,10 +1,7 @@
-body{
-    background-image: url(../img/marbre-beige-léger.png);
-}
 .titleinfo{
     color: #E5A037;
-    margin-left: 7%;
-    margin-bottom: 7%;
+    margin-bottom: 4%;
+    text-align: center;
 }
 h3{
     color: #E5A037;
@@ -12,6 +9,16 @@ h3{
 }
 .infoliv{
     margin-top: 20%;
+    text-align: center;
+}
+.identm{
+    margin-bottom: 2%;
+}
+.contam{
+    margin-bottom: 2%;
+}
+.hebergm{
+    margin-bottom: 2%;
 }
 @media screen and (max-width: 768px) {
     .infoliv {
