@@ -1,8 +1,16 @@
 <body>
     <footer class="footer">
+    <div class="paiement-footer">
+        <img class="cbi" src="img/CB-icon-ma'zhaar.png" alt="">
+        <img class="klarnai" src="img/footer-klarna-ma'zhaar.png" alt="">
+        <img class="masteri" src="img/footer-mastercard-ma'zhaar.png" alt="">
+        <img class="visai" src="img/footer-visa-ma'zhaar.png" alt="">
+        <img class="americani" src="img/footer-american-express-ma'zhaar.png" alt="">
+        <img class="paypali" src="img/footer-paypal-ma'zhaar.png" alt="">
+        <img class="applei" src="img/apple-pay-ma'zhaar.png" alt="">
+    </div>
         <p class="logo2">Ma'Zhaar</p>
         <p class="souslogo">Pâtisseries & Pains marocains</p>
-    </section>
     <section class=copy>
         <p class="right"> <img src="">
             copyright 2022-2023: Ma'Zhaar</p>

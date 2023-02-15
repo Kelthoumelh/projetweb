@@ -6,7 +6,7 @@
         <a href="patisseries.php" class="co">Commander</a>
     </section>
     <section class="section2">
-        <hr class="hr1">
+        <h1 class="hr"> Nos offres </h1>
     </section>
   
   <div class="carousel">
@@ -29,6 +29,42 @@
   </ul>
     </div>
     
+    
+      <h1 class="titavis">Vue sur nos avis</h1>
+      <section class="sectioninsta">
+        <span class="avis12">
+      <div class="avis1">
+        <img class="imgavis1" src="img/avis1.jpg" alt="">
+        <p>Sample text. Click to select the text box. 
+          Click again or double click to start editing the text.</p>
+        <p>JASS NORTON,
+           GESTIONNAIRE</p>
+      </div>
+      <div class="avis2">
+      <img class="imgavis2" src="img/avis2.jpg" alt="">
+        <p>Sample text. Click to select the text box. 
+          Click again or double click to start editing the text.</p>
+        <p>MARGO PERRY,
+           CONCEPTEUR</p>
+      </div>
+    </span>
+    <span class="avis34">
+      <div class="avis3">
+      <img class="imgavis3" src="img/avis3.jpg" alt="">
+        <p>Sample text. Click to select the text box.
+           Click again or double click to start editing the text.</p>
+        <p>NINA SCAVO,
+           CONCEPTEUR</p>
+      </div>
+      <div class="avis4">
+      <img class="imgavis4" src="img/avis4.jpg" alt="">
+        <p>Sample text. Click to select the text box.
+           Click again or double click to start editing the text.</p>
+        <p>NIKA HUDSON,
+           CONCEPTEUR</p>
+      </div>
+    </span>
+</section>
     
     <?php include 'hf/footer.php' ?>
    
