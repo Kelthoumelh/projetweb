@@ -36,7 +36,6 @@
             Téléphone</a>
 </div>
 </span>
-
 </footer>  
     <script src="js/Acceuil.js"></script>
     <script src="js/jquery-3.6.3.slim.min.js"></script>

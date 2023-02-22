@@ -29,9 +29,42 @@
 .envocmpt{
     padding: 1% 0%;
 }
+#cmpth a{
+    text-decoration: none;
+    color: black;
+    margin-top: 2%;
+    margin-left: 1%;
+}
 @media screen and (max-width: 768px) {
     #cmpth{
         margin: 313px 174px;
         margin-bottom: 0%;
     }
+}
+/* formulaire d'inscription */
+.formin{
+    width: 10%;
+    margin-top: 20%;
+    margin-left: 41%;
+}
+.titrin{
+    position: relative;
+    margin-left: 42.5%;
+    margin-top: 239px;
+    margin-bottom: -17%;
+}
+.boutin{
+    margin-left: 0%;
+    width: 135%;
+}
+.formin input{
+    padding: 11%
+}
+.formin label{
+    text-align: center;
+    margin-left: 30%;
+}
+.formin textarea{
+    padding: 25% 0% 18% 33%;
+    width: 137%;
 }

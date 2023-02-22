@@ -1,4 +1,4 @@
-/* Style the form container */
+/* Style the form container
 .formr {
    width: 50%;
    margin: 0px 1px 0px 366px;
@@ -12,7 +12,7 @@
    color: white;
    text-align: center;
 }
- /* Style the input fields */
+ Style the input fields
  .nom, .email, textarea {
     width: 100%;
     padding: 12px 20px;
@@ -23,7 +23,7 @@
  }
  
  
- /* Style the submit button */
+ Style the submit button
 .submit {
     width: 100%;
     background-color: #8d7b2c6e;
@@ -35,7 +35,7 @@
  }
  
  
- /* Style the labels */
+ Style the labels
  label {
     display: block;
     font-size: 1.2em;
@@ -46,4 +46,58 @@
    .formr{
       margin: 217px 0px 0px 171px;
    }
- }
+ } */
+.event{
+   text-align: center;
+   margin-top: 20%;
+   color: #E5A037;
+}
+.cornr{
+   width: 128%;
+   height: 85%;
+}
+.chebar{
+   width: 54%;
+   height: 85%;
+   margin-left: 39%;
+}
+.ghlibr{
+   width: 59%;
+   height: 85%;
+   margin-left: 20%;
+}
+.ccg{
+   display: flex;
+   margin-left: 8%;
+   margin-top: 8%;
+}
+.mariage{
+   margin-left: 22.5%;
+   color: white;
+   font-size: 174%;
+   position: absolute;
+   margin-top: -10%;
+}
+.bapteme{
+   margin-left: 7%;
+   font-size: 174%;
+   margin-top: -10%;
+   color: white;
+   position: absolute;
+}
+.autre{
+   margin-left: 15.5%;
+   font-size: 174%;
+   color: white;
+   position: absolute;
+   margin-top: -10%;
+}
+.devis{
+   text-decoration: none;
+   color: #e5a037;
+   margin-left: 44%;
+   font-size: 130%;
+   border: solid;
+   background-color: white;
+   padding: 2%;
+}
