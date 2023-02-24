@@ -21,7 +21,8 @@
     <header class="header">
         <div class="mr">
         <a href="#" class="logo">
-        Ma'Zhaar</a>
+        Ma'Zhaar
+    </a>
         
             <input class="recherche" type="text"/>
         
@@ -29,8 +30,8 @@
         <nav class="navbar">
             <a href="Acceuil.php" class="acceuil">Acceuil</a>
             <a href="patisseries.php" class="patisseries">Pâtisseries</a>
-            <a href="plat.php" class="plats">Plats</a>
-            <a href="reservation.php" class="réservations">Réservations</a>
+            <a href="plat.php" class="plats">Plats et Pains</a>
+            <a href="reservation.php" class="réservations">Evènements</a>
             <a href="infoliv.php" class="Informations">Mentions Légales</a>
             <a href="contactp.php" class="propos">Contacts</a>
         </nav>

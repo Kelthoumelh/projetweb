@@ -1,10 +1,10 @@
 <?php include 'hf/header.php' ?>
 
-<h1 class="plat">Plat</h1>
+<h1 class="plat">Plats et Pains</h1>
 <div class="P42">
     <div class="photo12"></div>
     <div class="basimg12">
-    <p class="prix22">cfbdfb<br>
+    <p class="prix22">Msemen<br>
     10€
     </p>
     <a class="href12" href="produit2.php?idProdui=1">
@@ -13,7 +13,7 @@
     </div>
     <div class="photo22"></div>
     <div class="basimg22">
-    <p class="prix22">bfbdbdf<br>
+    <p class="prix22">Batbout<br>
     10€ 
     </p>
     <a class="href22" href="produit2.php?idProdui=2">
@@ -22,7 +22,7 @@
    </div>
     <div class="photo32"></div>
     <div class="basimg32">
-    <p class="prix22">yukjth<br>
+    <p class="prix22">Harcha<br>
     10€
     </p>
     <a class="href32" href="produit2.php?idProdui=3">

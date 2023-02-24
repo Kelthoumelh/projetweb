@@ -5,12 +5,13 @@
         <img class="klarnai" src="img/footer-klarna-ma'zhaar.png" alt="">
         <img class="masteri" src="img/footer-mastercard-ma'zhaar.png" alt="">
         <img class="visai" src="img/footer-visa-ma'zhaar.png" alt="">
-        <img class="americani" src="img/footer-american-express-ma'zhaar.png" alt="">
         <img class="paypali" src="img/footer-paypal-ma'zhaar.png" alt="">
         <img class="applei" src="img/apple-pay-ma'zhaar.png" alt="">
     </div>
+    <div class="logoetsous">
         <p class="logo2">Ma'Zhaar</p>
         <p class="souslogo">Pâtisseries & Pains marocains</p>
+    </div>
     <section class=copy>
         <p class="right"> <img src="">
             copyright 2022-2023: Ma'Zhaar</p>
@@ -22,7 +23,7 @@
         <a href="Acceuil.php" class="acceuil2">Acceuil</a>
         <a href="patisseries.php" class="patisseries2">Pâtisseries</a>
         <a href="plat.css" class="plats2">Plats</a>
-        <a href="reservation.php" class="réservations2">Réservations</a>
+        <a href="reservation.php" class="réservations2">Evènements</a>
         <a href="infoliv.php" class="informations2">Mentions Légales</a>
         <a href="contactp.php" class="propos2">A propos</a>
     </div>

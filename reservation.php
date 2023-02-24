@@ -27,7 +27,21 @@
    <p class="autre">Autres</p>
 </div>
 </div>
-<a class="devis" href="reservation2.php">Faire un devis</a>
+<input class="devis" type="button" value="Faire un devis" onclick="masquer_div('a_masquer');" />
+<div id="a_masquer" style="display:none">
+<form  class="formdevis" action="">
+   <input class="" type="text" placeholder="Nom Prénom">
+   <input type="email" name="email" id="" placeholder="Email">
+   <input type="date" name="" id="">
+   <input type="tel" name="" id="" placeholder="Téléphone">
+   <input type="text" placeholder="quantité et types de gateau">
+   <textarea name="msgdevis" id="" cols="30" rows="10" placeholder="Message : indiquez-nous ici le nombre d'invités, le type de conditionnement,... ou toute information utile pour vous établir un devis !"></textarea>
+   <input type="button" value="Envoyer" class="envodevis">
+</form>
+
+</div>
+ 
+
 <?php include 'hf/footer.php' ?>
  </body>
 </html>

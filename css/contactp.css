@@ -49,3 +49,32 @@
     margin-bottom: -26%;
     font-family: 'Architects Daughter', cursive;
 }
+@media screen and (max-width: 768px) {
+    .propo {
+        width: 75%;
+        padding: 26% 96% 21% 0%;
+        background-size: 59%;
+        margin-bottom: -26%;
+        font-family: 'Architects Daughter', cursive;
+    }
+    .mailc {
+        display: flex;
+        margin-bottom: 2%;
+        margin-left: 5%;
+        margin-right: 20%;
+    }
+    .instac {
+        display: flex;
+        margin-bottom: 2%;
+        margin-left: 5%;
+        margin-right: 20%;
+    }
+    
+    .facec {
+        display: flex;
+        margin-left:5%;
+        margin-right: 27%;
+    }
+
+
+}

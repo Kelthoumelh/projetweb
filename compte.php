@@ -47,8 +47,8 @@ $contenu .= '<div class="erreur">Erreur de pseudo</div>';
 ?>
 <form id="cmpth"action="">
 <h1 class="cmpti">Connexion</h1>
-<input type="text" id="pseudo" name="pseudo"><br>
-<input type="text" id="mdp" name="mdp"><br><br>
+<input type="email" id="email" name="email" class="ecmpt" placeholder="Sophie@exemple.com" required><br>
+<input type="password" name="password" id="password" class="passcmpt" placeholder="Mot de passe" pattern="[a-zA-Z]{8,20}" required><br>
 <input type="submit" value="Se connecter" name="submit" class="envocmpt">
 <a href="inscription.php">s'inscrire</a>
 </form>

@@ -1,7 +1,7 @@
 .plat{
     margin-top: 17%;
     margin-bottom: -10%;
-    margin-left: 48%;
+    margin-left: 45%;
     color: #E5A037;
 }
 .P42{
@@ -109,7 +109,7 @@
     
     .plat{
         margin-top: 35%;
-        margin-left: 48%;
+        margin-left: 39%;
     }
 
     .P42 {
@@ -126,8 +126,114 @@
     }
     .prix22 {
         margin-top: 1%;
-        margin-left: -80%;
+        margin-left: -3%;
         margin-bottom: 4%;
         text-align: center;
+    }
+    .photo12 {
+        width: 10%;
+        padding: 10% 5% 10% 5%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10%;
+    }
+    .basimg12 {
+        position: absolute;
+        margin-top: -24%;
+        margin-left: 19%;
+    }
+    .photo22{
+        width: 10%;
+        padding: 10% 5% 10% 5%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10%;
+    }
+    .basimg22 {
+        position: absolute;
+        margin-top: -24%;
+        margin-left: 19%;
+    }
+    .photo32{
+        width: 10%;
+        padding: 10% 5% 10% 5%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10%;
+    }
+    .basimg32 {
+        position: absolute;
+        margin-top: -24%;
+        margin-left: 19%;
+    }
+    .photo42{
+        width: 10%;
+        padding: 10% 5% 10% 5%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10%;
+    }
+    .basimg42 {
+        position: absolute;
+        margin-top: -24%;
+        margin-left: 19%;
+    }    
+    .photo52{
+        width: 10%;
+        padding: 10% 5% 10% 5%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10%;
+    
+    }
+    .basimg52 {
+        position: absolute;
+        margin-top: -24%;
+        margin-left: 19%;
+    }
+    .photo62{
+        width: 10%;
+        padding: 10% 5% 10% 5%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10%;
+    
+    }
+    .basimg62 {
+        position: absolute;
+        margin-top: -24%;
+        margin-left: 19%;
+    }
+    .photo72{
+        width: 10%;
+        padding: 10% 5% 10% 5%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10%;
+    }
+    .basimg72 {
+        position: absolute;
+        margin-top: -24%;
+        margin-left: 19%;
+    }
+    .photo82{
+        width: 10%;
+        padding: 10% 5% 10% 5%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10%;
+    }
+    .basimg82 {
+        position: absolute;
+        margin-top: -24%;
+        margin-left: 19%;
     }
 }

@@ -59,8 +59,9 @@ body {
 }
 .myimg {
     position: relative;
-    top: 7px;
+    top: -29px;
     width: 30px;
+    margin-left: 85%;
 }
 .header .hamburger {
     display: none;
@@ -122,8 +123,8 @@ img:hover {
         display: grid;
     }
     .logo {
-        margin-left: 37%;
-        margin-top: 2%;
+        margin-left: 38%;
+        margin-top: 6%;
     }
     .header{
         height: 15%;
@@ -151,12 +152,12 @@ img:hover {
     }  
     .navbar a{
         color:#E5A037;
-        margin-left: 60px;
+        margin-left: 0px;
     }
     .header .hamburger {
         display: block;
-        margin-left: 90%;
-        margin-top: -7%;
+        margin-left: 19%;
+        margin-top: -2.5%;
     }
     .navbar.show{
         top: 15%;
@@ -176,6 +177,7 @@ img:hover {
         margin-bottom: 2%;
         margin-left: -2%;
     }
+    
 }
 /* FIN DU HEADER */
 /* DEBUT SECTION 1 */
@@ -211,8 +213,15 @@ img:hover {
         margin-bottom: 11%;
     }
     .co {
-        margin-left: -35%;
-        margin-top: 24%;
+        margin-left: 39%;
+        position: absolute;
+        margin-top: -32%;
+    }
+    .dough {
+        width: 102%;
+        height: 485px;
+        margin-left: -1%;
+        margin-top: -14%;
     }
 }
 /* FIN SECTION1 */
@@ -386,6 +395,63 @@ img:hover {
     margin-left: -12%;
     position: absolute;
 }
+@media screen and (max-width: 768px) {
+    .titavis {
+        margin-top: 32%;
+    }
+    .avis1 {
+        width: 68%;
+        background-color: white;
+        margin: 0% 10% 10% 0%;
+        padding: 5% 2% 3% 15%;
+    }
+    .imgavis1 {
+        width: 157px;
+        height: 220px;
+        margin-top: 0.5%;
+        margin-left: -22%;
+        position: absolute;
+    }
+    .avis2 {
+        background-color: white;
+        margin-bottom: 10%;
+        padding: 3% 4% 7% 15%;
+        margin-left: 18%;
+    }
+    .imgavis2 {
+        width: 157px;
+        height: 220px;
+        margin-top: 1%;
+        margin-left: -22%;
+        position: absolute;
+    }
+    .avis3 {
+        width: 68%;
+    background-color: white;
+    margin: 0% 10% 0% 0%;
+        padding: 5% 4% 5% 15%;
+    }
+    .imgavis3 {
+        width: 157px;
+        height: 220px;
+        margin-left: -22%;
+        margin-top: 0.5%;
+        position: absolute;
+    }
+    .avis4 {
+        width: 68%;
+    background-color: white;
+    margin-left: 19%;
+        padding: 5% 4% 5% 15%;
+    }
+    .imgavis4 {
+        width: 157px;
+        height: 220px;
+        margin-left: -22%;
+        margin-top: 0.5%;
+        position: absolute;
+    }
+}
 /* FIN SECTION 3 */
 .polya {
     margin-left: 73.5%;
@@ -404,6 +470,7 @@ img:hover {
     width: 20%;
     padding: 7% 40%;
     background-color: #FBC364;
+    position: absolute;
     margin-top: 10%;
     text-align: center;
 }
@@ -421,12 +488,17 @@ img:hover {
     margin-top: -17%;
     margin-left: -6%;
 }
+.logoetsous{
+    margin-top: -5%;
+    position: absolute;
+    margin-left: 4%;
+}
 .copy{
     position: absolute;
     width: 20%;
     padding: 0.5% 39% 0.5% 40%;
     background-color: #ffd387;
-    margin-top: 12%;
+    margin-top: 7%;
     margin-left: -39.6%;
 }
 .right{
@@ -443,8 +515,8 @@ img:hover {
     color: #E5A037;
 }
 .map2 {
-    margin-left: -124%;
-    margin-top: -45%;
+    margin-left: -122%;
+    margin-top: -34%;
 }
 .cift2 {
     margin-left: 174%;
@@ -494,6 +566,42 @@ img:hover {
 }
 .téléphone2{
     margin-bottom: 5%;
+}
+.paiement-footer {
+    display: flex;
+    position: absolute;
+    margin-right: 48%;
+    margin-top: 5%;
+    margin-left: 3%;
+    height: 10%;
+}
+.cbi{
+    width: 25%;
+    margin-left: -40%;
+}
+.klarnai{
+    width: 35%;
+    margin-left: 10%;
+}
+.masteri{
+    width: 26%;
+    margin-left: 10%;
+}
+.visai{
+    width: 28%;
+    margin-left: 10%;
+}
+.americani{
+    width: 20%;
+    margin-left: 10%;
+}
+.paypali{
+    width: 32%;
+    margin-left: 10%;
+}
+.applei{
+    width: 30%;
+    margin-left: 10%;
 }
 @media screen and (max-width: 768px) {
     .footer {
@@ -610,13 +718,12 @@ img:hover {
   justify-content: center;
   color: #fff;
   font-size: 0px;
-  width: 400px;
-  height: 400px;
+  width: 278px;
+  height: 277px;
   border-radius: 12px;
   box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.5);
   position: absolute;
   transition: all 0.3s ease-in;
-  margin-left: 3%;
 }
 .carousel__item:nth-child(1) {
   background-image: url(../img/zellige.PNG);
@@ -708,39 +815,4 @@ img:hover {
     position: absolute;
     margin-top: 140%;
     color: #E5A037;
-}
-.paiement-footer {
-    display: flex;
-    position: absolute;
-    margin-right: 48%;
-    margin-top: -6%;
-    margin-left: -4%;
-}
-.cbi{
-    width: 25%;
-    margin-left: -40%;
-}
-.klarnai{
-    width: 35%;
-    margin-left: 10%;
-}
-.masteri{
-    width: 26%;
-    margin-left: 10%;
-}
-.visai{
-    width: 28%;
-    margin-left: 10%;
-}
-.americani{
-    width: 20%;
-    margin-left: 10%;
-}
-.paypali{
-    width: 32%;
-    margin-left: 10%;
-}
-.applei{
-    width: 30%;
-    margin-left: 10%;
 }

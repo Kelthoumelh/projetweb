@@ -95,9 +95,85 @@
 .devis{
    text-decoration: none;
    color: #e5a037;
-   margin-left: 44%;
+   margin-left: 43.5%;
    font-size: 130%;
    border: solid;
    background-color: white;
    padding: 2%;
+   margin-bottom: 8%;
+   margin-top: 4%;
+}
+.formdevis{
+   display: flex;
+   flex-direction: column;
+   margin-top: -6%;
+}
+.formdevis input{
+   color: #E5A037;
+   padding: 2%;
+   margin: 2% 40%;
+}
+.formdevis textarea{
+   margin-bottom: 10%;
+   padding: 2%;
+   margin: 2% 40%;
+}
+.envodevis{
+
+}
+#a_masquer{
+   margin-bottom: 20px;
+   margin-top: 20px;
+}
+.envodevis{
+   margin-bottom: 10%;
+}
+@media screen and (max-width: 768px) {
+   .bapteme {
+      margin-left: 1%;
+      margin-top: -21%;
+  }
+   .mariage {
+      margin-left: 21%;
+      margin-top: -21%;
+  }
+  .autre {
+   margin-left: 16.5%;
+   margin-top: -21%;
+}
+.devis {
+    text-decoration: none;
+    color: #e5a037;
+    margin-left: 38.5%;
+    margin-top: 14%;
+}
+.formdevis input {
+   margin: 2% 22%;
+}
+.formdevis textarea{
+   margin-bottom: 10%;
+   padding: 2%;
+   margin: 2% 22%;
+}
+.event {
+   text-align: center;
+   margin-top: 47%;
+   margin-bottom: 10%;
+   color: #E5A037;
+}
+.cornr {
+   width: 212%;
+   height: 105%;
+   margin-left: -55%;
+}
+.chebar {
+   width: 88%;
+   height: 105%;
+   margin-left: 24%;
+}
+.ghlibr {
+   width: 93%;
+   height: 105%;
+   margin-left: 12%;
+}
 }
