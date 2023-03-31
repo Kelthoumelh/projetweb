@@ -1,4 +1,6 @@
-<?php require_once("inc/init.inc.php"); ?>
+<?php 
+// require_once("inc/init.inc.php"); 
+?>
 <?php include 'hf/header.php' ?>
 
  <h1 class="titrin"> Inscription </h1>
@@ -26,12 +28,11 @@ _."></textarea><br><br>
 <?php
 if($_POST)
 {
-debug($_POST);
+
 $verif_caractere = preg_match('#^[a-zA-Z0-9._-]+$#', $_POST['pseudo']);
 if(!$verif_caractere && (strlen($_POST['pseudo']) < 1 || strlen($_POST['pseudo']) > 20) ) //
 {
-$contenu .= "<div class='erreur'>Le pseudo doit contenir entre 1 et 20 caractères. <br> Caractère accepté : Lettre de A à Z et chiffre de 0 à
-9</div>";
+$contenu .= "<div class='erreur'>Le pseudo doit contenir entre 1 et 20 caractères. <br> Caractère accepté : Lettre de A à Z et chiffre de 0 à 9</div>";
 }
 else
 {
@@ -55,4 +56,5 @@ foreach($_POST as $indice => $valeur)
     }
     }
     ?>
+    <?php echo $contenu; ?>
 <?php include 'hf/footer.php' ?>

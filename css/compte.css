@@ -36,9 +36,9 @@
     margin-left: 1%;
 }
 @media screen and (max-width: 768px) {
-    #cmpth{
-        margin: 313px 174px;
-        margin-bottom: 0%;
+    #cmpth {
+        margin: 381px 165px;
+        margin-bottom: 14%;
     }
 }
 /* formulaire d'inscription */
@@ -67,4 +67,52 @@
 .formin textarea{
     padding: 14% 0% 10% 11%;
     width: 137%;
+}
+@media screen and (max-width: 768px) {
+.formin {
+    width: 10%;
+    margin-top: 20%;
+    margin-left: 35.5%;
+}
+.titrin {
+    position: relative;
+    margin-left: 39%;
+    margin-top: 239px;
+    margin-bottom: -9%;
+}
+.boutin {
+    margin-left: -8%;
+    width: 281%;
+}
+.formin textarea {
+    padding: 14% 113% 10% 11%;
+    width: 137%;
+}
+}
+
+@media screen and (max-width: 375px) {
+#cmpth {
+    margin: 349px 18px;
+    margin-bottom: 14%;
+    padding: 10% 20% 10% 20%;
+}
+.formin {
+    width: 10%;
+    margin-top: 20%;
+    margin-left: 24.5%;
+}
+.titrin {
+    position: relative;
+    margin-left: 30%;
+    margin-top: 239px;
+    margin-bottom: -9%;
+}
+.formin textarea {
+    padding: 12% 209% 12% 169%;
+    width: 132%;
+}
+.boutin {
+    margin-left: -11%;
+    width: 533%;
+}
 }

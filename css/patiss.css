@@ -1,7 +1,7 @@
 .pat{
     margin-top: 17%;
     margin-bottom: -10%;
-    margin-left: 46%;
+    margin-left: 45.5%;
     color: #E5A037;
 }
 .P4{
@@ -108,19 +108,19 @@
 }
 @media screen and (max-width: 768px) {
     .pat{
-        margin-top: 35%;
+        margin-top: 40%;
         margin-bottom: 0%;
-        margin-left: 42.5%;
+        margin-left: 40%;
     }
     .P4 {
         width: 281%;
-        margin-left: 23%;
+        margin-left: 22%;
         margin-right: 0%;
         display: block;
     }
     .P8{
         width: 281%;
-        margin-left: 23%;
+        margin-left: 22%;
         margin-right: 0%;
         display: block;
     }
@@ -248,4 +248,35 @@
     margin-top: 40%;
     text-align: center;
 }
+}
+@media screen and (max-width: 375px) {
+    .basimg {
+        margin-left: 11%;
+    }
+    .basimg2 {
+        margin-left: 11%;
+    }
+    .basimg3 {
+        margin-left: 11%;
+    }
+    .basimg4 {
+        margin-left: 11%;
+    }
+    .basimg5 {
+        margin-left: 11%;
+    }
+    .basimg6 {
+        margin-left: 11%;
+    }
+    .basimg7 {
+        margin-left: 11%;
+    }
+    .basimg8 {
+        margin-left: 11%;
+    }
+    .pat {
+        margin-top: 73%;
+        margin-bottom: 0%;
+        margin-left: 31%;
+    }
 }

@@ -69,7 +69,7 @@
 .ccg{
    display: flex;
    margin-left: 8%;
-   margin-top: 8%;
+   margin-top: 10%;
 }
 .mariage{
    margin-left: 22.5%;
@@ -134,7 +134,7 @@
       margin-top: -21%;
   }
    .mariage {
-      margin-left: 21%;
+      margin-left: 19%;
       margin-top: -21%;
   }
   .autre {
@@ -145,7 +145,8 @@
     text-decoration: none;
     color: #e5a037;
     margin-left: 38.5%;
-    margin-top: 14%;
+    margin-top: 22%;
+    margin-bottom: 11%;
 }
 .formdevis input {
    margin: 2% 22%;
@@ -157,7 +158,7 @@
 }
 .event {
    text-align: center;
-   margin-top: 47%;
+   margin-top: 40%;
    margin-bottom: 10%;
    color: #E5A037;
 }
@@ -177,3 +178,43 @@
    margin-left: 12%;
 }
 }
+
+@media screen and (max-width: 375px) {
+   
+   .event {
+   text-align: center;
+   margin-top: 73%;
+   margin-bottom: 10%;
+   color: #E5A037;
+}
+.cornr {
+   width: 209%;
+}
+.bapteme {
+   margin-left: -6%;
+   margin-top: -23%;
+}
+.chebar {
+   width: 89%;
+   height: 105%;
+   margin-left: 23%;
+}
+.mariage {
+   margin-left: 13%;
+   margin-top: -23%;
+}
+.autre {
+   margin-left: 11.5%;
+   margin-top: -23%;
+}
+.devis {
+   text-decoration: none;
+   color: #e5a037;
+   margin-left: 29.5%;
+   margin-top: 22%;
+   margin-bottom: 11%;
+}
+}
+
+
+

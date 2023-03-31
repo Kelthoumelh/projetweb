@@ -22,10 +22,10 @@
         <h1 class="menu2">Menu</h1>
         <a href="Acceuil.php" class="acceuil2">Acceuil</a>
         <a href="patisseries.php" class="patisseries2">Pâtisseries</a>
-        <a href="plat.css" class="plats2">Plats</a>
+        <a href="plat.php" class="plats2">Plats</a>
         <a href="reservation.php" class="réservations2">Evènements</a>
         <a href="infoliv.php" class="informations2">Mentions Légales</a>
-        <a href="contactp.php" class="propos2">A propos</a>
+        <a href="contactp.php" class="propos2">Contact</a>
     </div>
     <div class="cift2">
         <h1 class="contact2">Contact</h1>

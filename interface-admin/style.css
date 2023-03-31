@@ -1,0 +1,98 @@
+.navbara {
+    background-color: #FBC364;
+    width: 260px;
+    height: 1075px;
+    position: absolute;
+}
+.nameb{
+    text-align: center;
+    color: white;
+    font-size: 300%;
+    top: 5%;
+    font-family: 'Architects Daughter', cursive;
+}
+.nava {
+    margin-left: 32px;
+    color: white;
+}
+.acp {
+    list-style-type: none;
+    color: white;
+    margin-right: 41px;
+    font-size: 135%;
+    text-decoration: none;
+}
+.acp a{
+    text-decoration: none;
+    color: white;
+}
+.acceuila{
+    text-align: center;
+  
+}
+.contacta{
+    text-align: center;
+    text-decoration: none;
+}
+.proda{
+    text-align: center;
+    text-decoration: none;
+}
+.profi{
+    margin-top: 10%;
+}
+.nava2{ 
+    margin-left: 21%;
+    color:white;
+}
+/* CONTACT */
+.tabla {
+    width: 963px;
+    height: 53%;
+    background-color: #ff8d0073;
+    margin-left: 422px;
+    margin-top: 112px;
+    position: absolute;
+}
+.titra {
+    font-size: 212%;
+    margin-left: 457px;
+    margin-top: 3%;
+    position: absolute;
+    color: #875706;
+}
+.tablac {
+    margin-left: 433px;
+    margin-top: 8%;
+    color: white;
+    position: absolute;
+    border-color: wheat;
+}
+.boutsup {
+    background-color: #FBC364;
+    position: absolute;
+    margin-left: 21px;
+    margin-top: -2%;
+    padding: 1% 5% 1% 5%;
+}
+@media screen and (max-width: 768px) {
+    .navbara {
+        background-color: #FBC364;
+        width: 235px;
+        height: 1074px;
+        position: absolute;
+    }
+    .nava {
+        margin-left: 20px;
+        color: white;
+    }
+    .acp {
+        list-style-type: none;
+        color: white;
+        margin-right: 39px;
+        font-size: 135%;
+        text-decoration: none;
+    }
+    /* contact */
+
+}

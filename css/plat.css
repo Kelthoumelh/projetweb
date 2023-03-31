@@ -1,7 +1,7 @@
 .plat{
     margin-top: 17%;
     margin-bottom: -10%;
-    margin-left: 45%;
+    margin-left: 44.5%;
     color: #E5A037;
 }
 .P42{
@@ -108,19 +108,20 @@
 @media screen and (max-width: 768px) {
     
     .plat{
-        margin-top: 35%;
-        margin-left: 39%;
+        margin-top: 40%;
+        margin-left: 38%;
+        margin-bottom: 2%;
     }
 
     .P42 {
         width: 281%;
-        margin-left: 23%;
+        margin-left: 22%;
         margin-right: 0%;
         display: block;
     }
     .P82{
         width: 281%;
-        margin-left: 23%;
+        margin-left: 22%;
         margin-right: 0%;
         display: block;
     }
@@ -236,4 +237,38 @@
         margin-top: -24%;
         margin-left: 19%;
     }
+}
+
+
+
+@media screen and (max-width: 375px) {
+.basimg12 {
+    margin-left: 11%;
+}
+.basimg22 {
+    margin-left: 11%;
+}
+.basimg32 {
+    margin-left: 11%;
+}
+.basimg42 {
+    margin-left: 11%;
+}
+.basimg52 {
+    margin-left: 11%;
+}
+.basimg62 {
+    margin-left: 11%;
+}
+.basimg72 {
+    margin-left: 11%;
+}
+.basimg82 {
+    margin-left: 11%;
+}
+.plat {
+    margin-top: 73%;
+    margin-left: 26%;
+    margin-bottom: 2%;
+}
 }
